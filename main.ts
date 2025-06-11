@@ -34,6 +34,9 @@ function createHero(): void {
 function createTilemap(): void {
     tiles.setCurrentTilemap(assets.tilemap`crowdRace`)
 }
+function spawnHero(): void{
+ tiles.placeOnRandomTile(mySprite,assets.image`myTile`)
+}
 //================================EVENT HANDLERS=============================
 game.onUpdate(function () {
     if (mySprite.vy == 0) {
@@ -54,3 +57,4 @@ let mySprite: Sprite = null
 let jump_speed = -175
 let number_of_jumps = 0
 createHero()
+spawnHero()

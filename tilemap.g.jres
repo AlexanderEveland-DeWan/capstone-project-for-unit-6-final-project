@@ -1,19 +1,28 @@
 {
-    "transparency16": {
+    "myTiles.transparency16": {
+        "id": "myTiles.transparency16",
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "dataEncoding": "base64",
+        "namespace": "myTiles.",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true
     },
-    "tile1": {
+    "myTiles.tile1": {
+        "id": "myTiles.tile1",
         "data": "hwQQABAAAADu7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7g==",
+        "dataEncoding": "base64",
+        "namespace": "myTiles.",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
         "displayName": "myTile"
     },
     "crowdRace2": {
         "id": "crowdRace2",
-        "mimeType": "application/mkcd-tilemap",
         "data": "MTAxMDAwMTAwMDAzMDIwNDA1MDYwNzA4MDkwYTA1MDMwMjA4MDkwNjA3MDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTBiMGIwYjAxMDEwMTAxMDEwMTAxMDEwMTBiMGIwYjAxMDEwMTAxMDEwMTAxMDEwYjBiMGIwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwYjBiMDEwMTAxMGIwYjAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwYjBiMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMGIwYjBiMGIwMTAxMDEwMTAxMGIwYjBiMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwYjBiMGIwMTAxMDEwMTAxMDEwMTBiMGIwYjAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTBiMGIwYjBiMDEwMTAxMDEwMTAxMDEwYzAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTBiMGIwYjBiMGIwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMjIyMjIyMjIyMjIyMjIyMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMDIyMDAwMDAwMDAyMDIyMDAwMDAwMDAyMjAyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMjAwMjAwMjAwMDAwMDAwMDAwMDAwMDAyMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDIyMjIwMDAwMjAyMjAwMDAwMDAwMDAwMDAwMDAyMjAyMDAwMDAwMjIwMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMDIyMDIwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMjIyMjAyMDAwMDAwMDAwMA==",
+        "dataEncoding": "base64",
+        "namespace": "myTiles.",
+        "mimeType": "application/mkcd-tilemap",
+        "displayName": "crowdRace",
         "tileset": [
             "myTiles.transparency16",
             "sprites.builtin.brick",
@@ -28,12 +37,6 @@
             "sprites.builtin.crowd8",
             "sprites.vehicle.roadHorizontal",
             "myTiles.tile1"
-        ],
-        "displayName": "crowdRace"
-    },
-    "*": {
-        "mimeType": "image/x-mkcd-f4",
-        "dataEncoding": "base64",
-        "namespace": "myTiles"
+        ]
     }
 }
